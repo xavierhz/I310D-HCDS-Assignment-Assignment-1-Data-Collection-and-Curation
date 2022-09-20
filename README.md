@@ -1,13 +1,24 @@
 # I310D-HCDS
 
+# Overview
+For this assignment I used the Plug-In EVerywhere Level 2 Charging Station Network data set from the City of Austin, which can be found on:
+https://data.austintexas.gov/Utilities-and-City-Services/Plug-In-EVerywhere-Charging-Station-Network/k5hp-eece
+
+I wanted to analyze the number of EV Charging stations available to citizens of Austin via the Plug-In EVerywhere Network. 
+
+# Licensing and Attribution
+License -	Public Domain
+
 # Dictionary 
-Station Name - string - unique identifier for restaurant
+Station Name - string - Unique identifier for charging station.
 
-Postal Code - int - the postal code for each charging station
+Postal Code - int - The postal code for each charging station.
 
-Category - string - the category of where the EV Charging station is located
+Category - string - The category of where the EV Charging station is located. Categories in final data frame include Education, Healthcare, 
+Retail, Parks and Recreation, and Hospitality.
 
-Subcategory - string - the subcategory of category of where the EV Charging station is located
+
+Subcategory - string - the subcategory of category of where the EV Charging station is located.  
 
 # Analysis
 It was interesting to see that the City of Austin and Austin Energy categorized where their EV charging stations were location.
@@ -18,4 +29,6 @@ Stations available for use. I think this is some of the most important informati
 have higher access to charging stations. This is definitely something to take into account considering an increasing number 
 of people everywhere have begun to purchase EVs. 
 
+# Issues 
+I found no potential issues with the data set provided by the City of Austin itself.
 
