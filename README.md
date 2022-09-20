@@ -10,7 +10,7 @@ I wanted to analyze the number of EV Charging stations available to citizens of 
 License -	Public Domain
 
 # Dictionary 
-Station Name - string - Unique identifier for charging station.
+Station Name - string - Name provided of the charging station.
 
 Postal Code - int - The postal code for each charging station.
 
